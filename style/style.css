@@ -17,16 +17,26 @@
     text-decoration: none;
 }
 
-body {
-    background-color: #baacc7;
-}
-
 .container {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
 }
 
 header{
     font-family: 'MR';
     font-weight: 800;
+}
+
+.container h2{
+    font-size: 50px;
+}
+
+.biography .card{
+    background-color:rgb(199, 145, 230);
+}
+
+
+.container h3{
+    color:rgb(199, 145, 230);
+    font-size: 40px;
 }
