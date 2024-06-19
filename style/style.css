@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'MB';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'MR';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #baacc7;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    font-family: 'MR';
+    font-weight: 800;
+}
