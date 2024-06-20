@@ -154,3 +154,20 @@ header{
     background-color:rgb(199, 145, 230) ;
     border-color:rgb(199, 145, 230);
 }
+
+.obr{
+    margin-top: 190px;
+}
+
+footer{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+footer a{
+    margin-left: 20%;
+}
+
+footer .container hr{
+    border:rgb(199, 145, 230) 2px solid;
+}
