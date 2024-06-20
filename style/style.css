@@ -40,3 +40,117 @@ header{
     color:rgb(199, 145, 230);
     font-size: 40px;
 }
+
+.skills .sk{
+    width: 50%;
+}
+.port .card{
+    border-color:rgb(199, 145, 230);
+}
+
+.port .card a{
+    background-color:rgb(199, 145, 230);
+    border-color:rgb(199, 145, 230);
+}
+
+ .infofit .perecluch{
+    width: 100%;
+    overflow: hidden;
+
+}
+
+ .infofit .perecluch .line{
+    width: 300%;
+    display: flex;
+}
+
+ .infofit .perecluch .line .text{
+    width: calc(100%/3);
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;  
+}
+
+ .infofit .perecluch .line .text .photo{
+    display: flex;
+    width: calc(100%/1.3);
+    justify-content: space-between;
+    
+}
+
+#input1:checked ~ .perecluch .text{
+    transform: translateX(0);
+    transition: 1s;
+}
+#input2:checked ~ .perecluch .text{
+    transform: translateX(-100%);
+    transition: 1s;
+}
+#input3:checked ~ .perecluch .text{
+    transform: translateX(-200%);
+    transition: 1s;
+}
+#input1:checked ~ .perecluch .text1{
+    opacity: 1;
+    transition: 1s;
+}
+#input2:checked ~ .perecluch .text2{
+    opacity: 1;
+    transition: 1s;
+}
+#input3:checked ~ .perecluch .text3{
+    opacity: 1;
+    transition: 1s;
+}
+#input1:checked ~ #label1,
+#input2:checked ~ #label2,
+#input3:checked ~ #label3{
+    background-color:rgb(199, 145, 230) ;
+    color: white;
+    transition: .3s;
+}
+ .infofit input{
+    display: none;
+}
+
+ .infofit label{
+    font-family: 'MB';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 9px;
+    transition: .5s;
+    margin-right: 40px;
+}
+
+ .infofit .perecluch{
+    margin-top: 50px;
+}
+ .infofit .perecluch .line .text h3{
+    font-family: 'MB';
+    font-size: 26px;
+    font-weight: 500;
+}
+
+ .infofit .perecluch .line .text2{
+    opacity: 0;
+    transition: .5s;
+}
+ .infofit .perecluch .line .text3{
+    opacity: 0;
+    transition: .5s;
+}
+
+.succses{
+    margin-top: 90px;
+}
+
+
+.col-12 button{
+    background-color:rgb(199, 145, 230) ;
+    border-color:rgb(199, 145, 230);
+}
